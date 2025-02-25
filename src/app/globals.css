@@ -3,19 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #344e41;
+  --primary: #dad7cd;
+  --font-family: 'Poiret One';
+  --font-family-secondary: 'Cookie';
+  --font-family-ubuntu: 'Ubuntu';
+  --font-family-ubuntu-condensed: 'Ubuntu Condensed';
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #344e41;
     --foreground: #ededed;
   }
 }
 
 body {
-  color: var(--foreground);
+  color: var(--primary);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
