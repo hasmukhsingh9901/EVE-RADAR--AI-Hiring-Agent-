@@ -4,7 +4,8 @@
 
 :root {
   --background: #344e41;
-  --primary: #dad7cd;
+  --secondary:#344e41;
+  --primary: #fefae0;
   --font-family: 'Poiret One';
   --font-family-secondary: 'Cookie';
   --font-family-ubuntu: 'Ubuntu';

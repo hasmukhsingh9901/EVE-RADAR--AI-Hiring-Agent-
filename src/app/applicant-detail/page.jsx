@@ -1,12 +1,11 @@
-import ApplicantDetailForm from "@/components/appilcant-details-form";
-import React from "react";
+import ApplicantDetail from "@/components/appilcant-details-form";
 
-const ApplicantDetail = () => {
+const page = () => {
   return (
     <div className="min-h-screen bg-background">
-      <ApplicantDetailForm />
+      <ApplicantDetail />
     </div>
   );
 };
 
-export default ApplicantDetail;
+export default page;
